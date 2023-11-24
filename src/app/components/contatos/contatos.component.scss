@@ -1,0 +1,8 @@
+.container{
+    height: 5vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: center;
+    background-color: #30604C;
+    justify-items: center;
+}

@@ -1,0 +1,29 @@
+.container{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
+    padding: 20px;
+}
+.nav-bar{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(5, 20px);
+    justify-content: space-around;
+}
+button{
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: #30604C;
+    color: #D3D0D0;
+}
+span{
+    width: 80px;
+    color: #30604C;
+    font-weight: bold;
+    border: 1px solid #30604C;
+    border-radius: 8px;
+    padding: 5px;
+}

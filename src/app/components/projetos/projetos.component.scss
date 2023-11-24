@@ -1,0 +1,32 @@
+.container{
+    height: calc(100vh - 60px);
+    padding: 250px 60px;
+    background-color: #282828;
+    display: grid;
+    grid-template-rows: 200px 1fr;
+}
+.repositorio{
+    display: grid;
+    grid-template-rows: 30px 1fr 100px;
+    row-gap: 1px;
+}
+img{
+    width: 200px;
+    height: 180px;
+}
+.titulo{
+    font-size: 40px;
+}
+.projeto-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+span{
+    font-size: 20px;
+    text-align: center;
+}
+.nome-projeto{
+    color: #30604C;
+    
+}

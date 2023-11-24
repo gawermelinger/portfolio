@@ -1,0 +1,14 @@
+<section class="container">
+<div *ngIf="dadosBasicos" class="home-content">
+  <span>Olá, meu nome é </span>
+  <div >
+  <span class="first-name">{{ getFirstName() }}</span>
+  <span class="last-name">{{ getLastName() }}</span>
+</div>
+  <span>{{ dadosBasicos.cargo }}</span>
+</div>
+<div class="contatos" *ngFor="let contato of dadosBasicos?.contatos">
+  <a [href]="contato.urlLinkedin"><img src="../../../assets/linkedin.png" alt=""></a>
+  <a [href]="contato.urlLinkedin"><img src="../../../assets/github.png" alt=""></a>
+</div>
+</section>

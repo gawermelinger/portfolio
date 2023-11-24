@@ -1,0 +1,12 @@
+<section class="container">
+    <div>
+        <span class="titulo">Meus projetos</span>
+    </div>
+    <div class="projeto-card">
+        <div *ngFor="let projeto of projetos" class="repositorio">
+            <span class="nome-projeto">{{ projeto.titulo }}</span>
+            <a [href]="projeto.urlRepo"><img src="../../../assets/home-photo.jpg" alt=""></a>
+            <span>{{ projeto.tecnologias }}</span>
+        </div>
+    </div>
+</section>
